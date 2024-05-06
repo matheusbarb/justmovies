@@ -41,7 +41,7 @@ Make sure you have Node.js installed on your machine. You can download and insta
 
 ## Running
 First, Clone the Next.js project repository to your local environment using Git. Open the terminal and execute the following command:
-`git clone `
+`git clone https://github.com/matheusbarb/justmovies.git `
 
 After the cloning is complete, navigate to the project directory using the command:
 `cd` 
