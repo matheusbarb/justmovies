@@ -41,7 +41,6 @@ function Favorite() {
                     className=""
                     width={1500}
                     height={300}
-                    
                   />
                 <div className="flex justify-between mt-2 w-full">
                   <div className="bg-blue-500 hover:bg-blue-700 text-white  py-2 px-6 rounded">
