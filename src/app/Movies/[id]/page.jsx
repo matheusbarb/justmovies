@@ -3,6 +3,7 @@ import { useEffect, useState } from "react";
 import { useParams, useRouter } from "next/navigation";
 import api from "@/app/services/api";
 import { toast } from "react-toastify";
+import Image from "next/image";
 
 function Movies() {
   const { id } = useParams();
@@ -70,7 +71,7 @@ function Movies() {
       <h1 className="text-center mt-3 font-semibold lg:text-3xl md:text-3xl text-xl">
         {movie.title}
       </h1>
-      <img
+      <Image
         src={`https://image.tmdb.org/t/p/original/${movie.backdrop_path}`}
         alt={movie.title}
         className="mt-2 w-full h-auto  p-4"
