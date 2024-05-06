@@ -6,7 +6,7 @@ Este é um projeto [Next.js](https://nextjs.org/)  inicializado com [`create-nex
 ## Executando
 
 Primeiro, Clone o repositório do projeto Next.js para o seu ambiente local usando o Git. Abra o terminal e execute o seguinte comando: 
-`git clone `
+`git clone https://github.com/matheusbarb/justmovies.git `
 
 Após a conclusão do clone, navegue até o diretório do projeto usando o comando:
  `cd`
