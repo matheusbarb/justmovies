@@ -3,6 +3,7 @@ import { useEffect, useState } from "react";
 import api from "@/app/services/api";
 import Link from "next/link";
 import Slider from "./components/Slider";
+import Image from "next/image";
 
 function Home() {
   const [movies, setMovies] = useState([]);
@@ -64,7 +65,7 @@ function Home() {
               <strong className="block truncate bg-gradient-to-t from-red-500 to-white text-transparent bg-clip-text ">
                 {movie.title}
               </strong>
-              <img
+              <Image
                 src={`https://image.tmdb.org/t/p/original/${movie.poster_path}`}
                 alt={movie.title}
                 className="mt-2 w-full h-auto rounded-t"
