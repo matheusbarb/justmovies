@@ -30,11 +30,7 @@ function Movies() {
     }
 
     loadMovie();
-
-    return () => {
-      console.log("Componente Desmontado");
-    };
-  }, []);
+  }, [id, navigate]);
 
   function saveMovie() {
     const mylist = localStorage.getItem("@justmovies");
