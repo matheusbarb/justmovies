@@ -2,8 +2,9 @@
 import Link from "next/link";
 import { useEffect, useState } from "react";
 import { toast } from "react-toastify";
+import Image from "next/image";
 
-function favorite() {
+function Favorite() {
   const [movies, setMovies] = useState([]);
 
   useEffect(() => {
@@ -34,7 +35,7 @@ function favorite() {
                 className="flex flex-col items-center justify-center lg:w-1/2 m-4"
               >
                 <span className="font-semibold text-xl">{item.title}</span>
-                <img
+                <Image
                   src={`https://image.tmdb.org/t/p/original/${item.backdrop_path}`}
                   alt={item.title}
                   className="mt-2 w-full h-auto"
@@ -58,4 +59,4 @@ function favorite() {
   );
 }
 
-export default favorite;
+export default Favorite;
